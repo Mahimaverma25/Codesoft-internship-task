@@ -1,129 +1,23 @@
 # Codesoft-internship-task
-// task 1 of internship.
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LandScape page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Mahima Verma LandScape page</h1>
-        <nav>
-            <ul>
-                <li> <a href="#">Home</a></li>
-                <li><a href="#">features</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-        </nav>
-    </header>
+I have completed tasks given for my internship as a web developer in Codesoft. I hope it will helpfull for you guys.
 
-    <section id="Hero">
-        <h2>Welcome to my amazing LandScape product</h2>
-        <p>
-            Here you can discover an exciting and amazing features that 
-            might be helpful for your coding journey.
-        </p>
-        <a href="#contact" class="button">Get Started</a>
-    </section>
+(level 1)
+Task 1:-- LANDSCAPE PAGE 
+A landing page is an ideal web development project for  bigginners. It requires basic knowledge of html and css. 
+through this project, you'll learn to create columns, divide sectons, arrange items and then add header and footer.
 
-    <section id="features">
-        <h2>Features</h2>
-        <div class="featutes">
-            <h3>Features one</h3>
-            <p>Find details about feature one.</p>
-        </div>
-        <div class="features">
-            <h3>Features two</h3>
-            <p>Find Details about feaure two</p>
-        </div>
-    </section>
+Task 2:-- PORTFOLIO PAGE
+Creating a presonal portfoilo using HTML and CSS is a popular beginner web development projects.
+Header Section: add your name or logo at the top. then include a tagline or brief introduction.
+About section: insert your image then write a short note of your highlighting bio.
+Skills section: highlight your skills or areas of expertise.
+projects section: Showcase your  samples of your work and projects.
+resume section: provide a link to download your resume in a pdf format.
+contact section: include your contact information such as email address and phone number.
+footer: add a copyright notice and any additional links or information.
 
-    <footer>
-        <p> 
-            $copy; 2024 Your company. All rights reserved.
-           <br> Owner- mahima Verma<br>
-           Web Development Internship (level-1 :- task 1)
-        </p>
-    </footer>
-    
-</body>
-</html>
-
-// CSS PART
-
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header{
-    background-color: #333;
-    color: #fff;
-    padding: 65px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-nav ul{
-    list-style: none;
-    display: flex;
-    padding: 0;
-}
-nav ul li{
-    display: inline;
-    margin: 0 10px;
-    margin-right: 25px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.hero{
-    text-align: center;
-    padding: 120px 0;
-    color: #fff;
-}
-.hero h2{
-    font-size: 38px;
-    margin-bottom: 25px;
-}
-.hero p{
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-.btn{
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-.btn:hover{
-    background-color: #0056b3;
-}
-section{
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-.feature{
-    margin-bottom: 20px;
-}
-
-footer{
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
+task 3:-- CALCULATORE
+To create a basic calcultor using HTML and CSS and JAVASCRIPT. You'll need to implement an intractive interface with buttons for
+addtions subtractions multiplication and division operations.
+This projects requires some skills but can be done with basic knowledge of these technologies.
+I have learn it from youtube and currently I am working on it to give my best next time with a strong command on these languages.
