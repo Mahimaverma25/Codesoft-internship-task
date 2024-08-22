@@ -1,0 +1,167 @@
+// task 2 of internship 
+// making a simple portfolio 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script
+      src="https://kit.fontawesome.com/7a4b62b0a4.js" crossorigin="anonymous">
+</script>
+</head>
+<body>
+    <!-- Header Section-->
+    <header>
+        <div class="Container">
+            <h1>Mahima Verma</h1>
+            <p>Web Development Internship in <i>CODESOFT </i>company</p>
+        </div>
+    </header>
+
+<!-- About Section-->
+    <section class="About Container">
+        <h2><center>About Me</center></h2>
+        <img src="/images/profile 1.png" alt="Mahima Verma">
+        <p>Name: Mahima Verma<br>
+            Father's name: write your father name here<br>
+            Mother's name: write your mother name here <br>
+            DOB: write your date of birth<br>
+            Addres: pryaraj<br>
+            Mobile no: (91) <br>
+            Religion: Hindu <br>
+            Nationality: Indian <br>
+            Gender: Female<br>
+            Qualification: BCA <br>
+        </p>
+    </section>
+<!-- Skill section-->
+    <section class="skills Container">
+        <h2>Skills</h2>
+        <ul>
+            <li>I am able to use microsoft office like( microsoft word, excel, powerpoint presentation)</li>
+            <li>Web Development including CSS and HTML<br>
+            I know little bit C language and DSA .</li>
+            <li> And currently I am learning java programming and Linux.</li>
+        </ul>
+    </section>
+<!-- Projects section-->
+    <section class="Projects Container">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Login Page</h3>
+                <p>Making login page using html and css.</p>
+                <img src="images/login page.png" alt="project 1">
+            </li>
+        <li>
+            <h3>Profile Card</h3>
+            <p>In my second project I learn From Youtube how to make Profile Card using HTML and CSS.</p>
+            <img src="images/profile card.png" alt="project 2">
+        </li>
+    </ul>
+    </section>
+<!-- Resume Section-->
+    <section class="resume container">
+        <h2>resume</h2>
+        <a href="file:///C:/Users/user/OneDrive/Desktop/vs.code/advance%20html/internshipProjects.html/MAHIMA%20VERMA%20RESUME.pdf">Download My Resume</a>
+        </section>
+<!-- Contact section-->
+        <section id="contact">
+            <h2>Contact Me</h2>
+        <p>Email: <a href="work.mahimaverma@gmail.com">work.mahimaverma@gmail.com</a></p>
+        <p>Phone:(91) </p>
+    </section>
+    <!-- Footer-->
+    <footer>
+        <p>&copy: 2024 mahima Verma. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
+
+// css part.
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --lighting-color: #0089b7;
+  --dark-color: #003d62;
+  --darker-color: #003251;
+  --secondary-color: #fff700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header{
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+}
+
+header p{
+    margin: 0.5em 0 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+img{
+    max-width: 100%;
+    height: 50vh;
+    width: 45vh;
+}
+
+.about img{
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+section{
+    padding: 20px 0;
+}
+
+.skills ul, .projects ul{
+    list-style: none;
+    padding: 0;
+}
+
+.skills li, .projects li{
+    margin: 10px 0;
+}
+
+footer{
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
